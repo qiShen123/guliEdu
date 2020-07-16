@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itguigu.eduService.mapper.EduSubjectMapper">
+
+    <resultMap id="resultSubject" type="com.itguigu.eduService.entity.subject.OneSubject">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <collection property="child" ofType="com.itguigu.eduService.entity.subject.TwoSubject">
+            <result property="id" column="twoId"/>
+            <result property="title" column="twoTitle"/>
+        </collection>
+    </resultMap>
+
+    <select id="getSubject" resultMap="resultSubject">
+        SELECT a.id,a.title,b.id AS twoId,b.title AS twoTitle FROM edu_subject a LEFT JOIN edu_subject b ON b.parent_id = a.id WHERE a.parent_id='0'
+    </select>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itguigu.eduService.mapper.EduChapterMapper">
+    <resultMap id="resultChapter" type="com.itguigu.eduService.entity.chapter.ChapterVo">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <collection property="videoVos" ofType="com.itguigu.eduService.entity.chapter.VideoVo">
+            <result property="id" column="vId"/>
+            <result property="title" column="vTitle"/>
+            <result property="videoSourceId" column="video_source_id"/>
+        </collection>
+    </resultMap>
+    <select id="getChapter" resultMap="resultChapter">
+        select a.id,a.title,b.id as vId,b.title as vTitle, b.video_source_id from edu_chapter a left join edu_video b on b.chapter_id = a.id where a.course_id = #{courseId};
+    </select>
+</mapper>
