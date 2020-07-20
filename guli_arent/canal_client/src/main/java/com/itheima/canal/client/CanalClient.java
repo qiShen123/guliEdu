@@ -32,7 +32,7 @@ public class CanalClient {
      */
     public void run() {
 
-        CanalConnector connector = CanalConnectors.newSingleConnector(new InetSocketAddress("192.168.44.132",
+        CanalConnector connector = CanalConnectors.newSingleConnector(new InetSocketAddress("192.168.234.128",
                 11111), "example", "", "");
         int batchSize = 1000;
         try {
