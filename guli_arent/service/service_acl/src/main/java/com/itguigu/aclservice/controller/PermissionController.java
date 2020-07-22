@@ -3,7 +3,7 @@ package com.itguigu.aclservice.controller;
 
 import com.itguigu.aclservice.entity.Permission;
 import com.itguigu.aclservice.service.PermissionService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

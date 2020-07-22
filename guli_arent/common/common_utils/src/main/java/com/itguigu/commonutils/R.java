@@ -1,4 +1,4 @@
-package com.itguihu.commonutils;
+package com.itguigu.commonutils;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

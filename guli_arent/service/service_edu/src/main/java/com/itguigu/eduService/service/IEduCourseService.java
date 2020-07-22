@@ -7,7 +7,7 @@ import com.itguigu.eduService.entity.vo.frontVo.CourseFrontVo;
 import com.itguigu.eduService.entity.vo.CourseInfoVo;
 import com.itguigu.eduService.entity.vo.CourseVo;
 import com.itguigu.eduService.entity.vo.frontVo.CourseWebVo;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 
 import java.util.Map;
 

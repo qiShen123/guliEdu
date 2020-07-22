@@ -17,6 +17,7 @@
         <module>spring_security</module>
     </modules>
 
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -68,5 +69,4 @@
             <artifactId>jjwt</artifactId>
         </dependency>
     </dependencies>
-
 </project>

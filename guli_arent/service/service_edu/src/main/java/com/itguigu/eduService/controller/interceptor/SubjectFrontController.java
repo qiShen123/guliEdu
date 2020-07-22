@@ -2,7 +2,7 @@ package com.itguigu.eduService.controller.interceptor;
 
 import com.itguigu.eduService.entity.subject.OneSubject;
 import com.itguigu.eduService.service.IEduSubjectService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

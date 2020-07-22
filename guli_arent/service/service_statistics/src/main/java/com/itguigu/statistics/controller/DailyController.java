@@ -2,7 +2,7 @@ package com.itguigu.statistics.controller;
 
 
 import com.itguigu.statistics.service.IDailyService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

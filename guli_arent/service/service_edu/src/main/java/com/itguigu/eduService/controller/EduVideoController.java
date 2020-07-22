@@ -3,7 +3,7 @@ package com.itguigu.eduService.controller;
 
 import com.itguigu.eduService.entity.EduVideo;
 import com.itguigu.eduService.service.IEduVideoService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

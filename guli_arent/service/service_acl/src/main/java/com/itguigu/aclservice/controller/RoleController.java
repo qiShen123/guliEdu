@@ -5,7 +5,7 @@ import com.itguigu.aclservice.entity.Role;
 import com.itguigu.aclservice.service.RoleService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;

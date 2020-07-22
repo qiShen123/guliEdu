@@ -1,7 +1,7 @@
 package com.itguigu.eduService.client;
 
 import com.itguigu.eduService.client.hystrix.VodFileDegradeFeignClient;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.DeleteMapping;

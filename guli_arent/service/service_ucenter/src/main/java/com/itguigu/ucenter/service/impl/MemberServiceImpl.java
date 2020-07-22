@@ -7,8 +7,8 @@ import com.itguigu.ucenter.entity.vo.RegisterVo;
 import com.itguigu.ucenter.mapper.MemberMapper;
 import com.itguigu.ucenter.service.IMemberService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.itguihu.commonutils.JwtUtils;
-import com.itguihu.commonutils.MD5;
+import com.itguigu.commonutils.JwtUtils;
+import com.itguigu.commonutils.MD5;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.server.Session;
@@ -16,7 +16,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.concurrent.TimeUnit;
 
 /**
  * <p>

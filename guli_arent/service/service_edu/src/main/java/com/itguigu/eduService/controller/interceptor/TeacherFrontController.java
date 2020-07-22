@@ -5,7 +5,7 @@ import com.itguigu.eduService.entity.EduCourse;
 import com.itguigu.eduService.entity.EduTeacher;
 import com.itguigu.eduService.service.IEduCourseService;
 import com.itguigu.eduService.service.IEduTeacherService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
 package com.itguigu.eduService.client.hystrix;
 
 import com.itguigu.eduService.client.VodClient;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.itguihu.commonutils;
+package com.itguigu.commonutils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,7 @@
 package com.itguigu.order.client;
 
 import com.itguigu.order.client.hystrix.UCenterHystrix;
-import com.itguihu.commonutils.orderVo.MemberOrderVo;
+import com.itguigu.commonutils.orderVo.MemberOrderVo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -3,7 +3,7 @@ package com.itguigu.educms.controller;
 
 import com.itguigu.educms.entity.CrmBanner;
 import com.itguigu.educms.service.ICrmBannerService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

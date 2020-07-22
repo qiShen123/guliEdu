@@ -6,8 +6,8 @@ import com.itguigu.eduService.mapper.EduAdminMapper;
 import com.itguigu.eduService.service.IEduAdminService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.itguigu.serviceBase.exceptionhandler.GuliException;
-import com.itguihu.commonutils.JwtUtils;
-import com.itguihu.commonutils.MD5;
+import com.itguigu.commonutils.JwtUtils;
+import com.itguigu.commonutils.MD5;
 import org.springframework.stereotype.Service;
 
 /**

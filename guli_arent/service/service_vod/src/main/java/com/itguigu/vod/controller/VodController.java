@@ -1,7 +1,7 @@
 package com.itguigu.vod.controller;
 
 import com.itguigu.vod.service.IVodService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;

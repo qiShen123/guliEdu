@@ -1,6 +1,6 @@
 package com.itguigu.serurity.security;
 
-import com.itguihu.commonutils.MD5;
+import com.itguigu.commonutils.MD5;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 

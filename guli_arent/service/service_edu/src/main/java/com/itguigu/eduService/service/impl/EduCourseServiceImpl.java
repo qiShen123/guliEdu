@@ -17,7 +17,7 @@ import com.itguigu.eduService.service.IEduCourseService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.itguigu.eduService.service.IEduVideoService;
 import com.itguigu.serviceBase.exceptionhandler.GuliException;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

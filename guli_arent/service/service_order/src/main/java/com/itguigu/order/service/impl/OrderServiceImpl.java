@@ -6,9 +6,9 @@ import com.itguigu.order.entity.TOrder;
 import com.itguigu.order.mapper.OrderMapper;
 import com.itguigu.order.service.IOrderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.itguihu.commonutils.OrderNoUtil;
-import com.itguihu.commonutils.orderVo.EduCourseOrder;
-import com.itguihu.commonutils.orderVo.MemberOrderVo;
+import com.itguigu.commonutils.OrderNoUtil;
+import com.itguigu.commonutils.orderVo.EduCourseOrder;
+import com.itguigu.commonutils.orderVo.MemberOrderVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

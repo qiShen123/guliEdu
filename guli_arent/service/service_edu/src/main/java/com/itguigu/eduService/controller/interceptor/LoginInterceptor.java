@@ -1,14 +1,12 @@
 package com.itguigu.eduService.controller.interceptor;
 
-import com.itguihu.commonutils.JwtUtils;
+import com.itguigu.commonutils.JwtUtils;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.HandlerMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.util.Map;
 
 @Component
 public class LoginInterceptor implements HandlerInterceptor {

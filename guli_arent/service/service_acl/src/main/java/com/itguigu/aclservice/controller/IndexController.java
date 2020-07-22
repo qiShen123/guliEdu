@@ -2,7 +2,7 @@ package com.itguigu.aclservice.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.itguigu.aclservice.service.IndexService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;

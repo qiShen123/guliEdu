@@ -2,22 +2,23 @@ package com.itguigu.eduService.controller;
 
 import com.itguigu.eduService.entity.EduAdmin;
 import com.itguigu.eduService.service.IEduAdminService;
-import com.itguihu.commonutils.JwtUtils;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.JwtUtils;
+import com.itguigu.commonutils.R;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import javax.servlet.http.HttpSession;
 
 @CrossOrigin
 @RestController
 @RequestMapping("/eduService/admin")
+@Slf4j
 public class EduLoginController {
     @Autowired
     private IEduAdminService adminService;
     @PostMapping("login")
     public R login(@RequestBody EduAdmin admin) {
         String token = adminService.login(admin);
+        log.info(admin.getUsername()+"请求登录");
         return R.ok().data("token", token);
     }
 

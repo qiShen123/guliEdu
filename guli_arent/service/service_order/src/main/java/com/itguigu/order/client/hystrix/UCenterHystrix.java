@@ -2,7 +2,7 @@ package com.itguigu.order.client.hystrix;
 
 import com.itguigu.order.client.UCenterClient;
 import com.itguigu.serviceBase.exceptionhandler.GuliException;
-import com.itguihu.commonutils.orderVo.MemberOrderVo;
+import com.itguigu.commonutils.orderVo.MemberOrderVo;
 import org.springframework.stereotype.Component;
 
 @Component

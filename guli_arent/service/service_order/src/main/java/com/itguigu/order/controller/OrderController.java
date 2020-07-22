@@ -4,9 +4,8 @@ package com.itguigu.order.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.itguigu.order.entity.TOrder;
 import com.itguigu.order.service.IOrderService;
-import com.itguihu.commonutils.JwtUtils;
-import com.itguihu.commonutils.R;
-import com.netflix.client.http.HttpRequest;
+import com.itguigu.commonutils.JwtUtils;
+import com.itguigu.commonutils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -46,7 +45,7 @@ public class OrderController {
 
     /**
      * 远程调用，查询课程是否购买
-     * @param orderNo
+     * @param courseId
      * @param memberId
      * @return
      */

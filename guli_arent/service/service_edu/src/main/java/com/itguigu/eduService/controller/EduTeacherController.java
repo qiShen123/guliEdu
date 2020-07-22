@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.itguigu.eduService.entity.EduTeacher;
 import com.itguigu.eduService.entity.vo.TeacherQuery;
 import com.itguigu.eduService.service.IEduTeacherService;
-import com.itguihu.commonutils.R;
+import com.itguigu.commonutils.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
